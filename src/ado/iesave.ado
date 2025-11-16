@@ -184,7 +184,6 @@ qui {
 		isid `idvars'
 	}
 
-
 	* Document ID var in data set notes
 	notes: ID = `idvars'
 
