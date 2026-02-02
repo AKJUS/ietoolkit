@@ -26,6 +26,7 @@
 !README.md
 !CONTRIBUTING.md
 !LICENSE*
+!CITATION.cff
 
 * Unignore reproot files
 !reproot*.yaml

@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ietoolkit
+message: Stata package of commands for impact evaluation data analysis
+type: software
+authors:
+  - name: 'DIME Analytics, The World Bank'
+    address: 1818 H St NW
+    city: 'Washington, DC'
+    country: US
+    post-code: '20433'
+    email: dimeanalytics@worldbank.org
+repository-code: 'https://github.com/worldbank/ietoolkit'
+url: 'https://worldbank.github.io/ietoolkit/'
+keywords:
+  - stata-command
+  - impact-evaluations
+  - balance-table
+  - ado
+  - pscore-matching
+  - stata
+license: MIT
