@@ -31,7 +31,7 @@ qui {
   	**********************/
 
   	* Stata versions commands in this package allows when applicable
-  	return local  stata_target_versions "12 12.0 12.1 13 13.0 13.1 14 14.0 14.1 14.2 15 15.0 15.1 16.0 16.1 17.0 18.0"
+  	return local  stata_target_versions "12 12.0 12.1 13 13.0 13.1 14 14.0 14.1 14.2 15 15.0 15.1 16.0 16.1 17.0 18.0 18.1 18.2 18.3 18.4 18.5 19.0 19.1 19.2 19.3 19.4 19.5"
   	return local  dta_target_versions   "12 13 14"
 
   	* Prepare returned locals
