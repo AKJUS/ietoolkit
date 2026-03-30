@@ -39,7 +39,7 @@ jobs:
         shell: Rscript {0}
 
       - name: Install adodownr
-        run: devtools::install_github("lsms-worldbank/adodownr")
+        run: pak::pak("lsms-worldbank/adodownr")
         shell: Rscript {0}
 
       - name: Install here
