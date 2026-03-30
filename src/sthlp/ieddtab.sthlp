@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 7.3 20240404}{...}
+{* *! version 7.4 20260330}{...}
 {hline}
 {pstd}help file for {hi:ieddtab}{p_end}
 {hline}
@@ -9,10 +9,10 @@
 {phang}{bf:ieddtab} - This command runs a Diff-in-Diff regression and displays the baseline values, the two 1st differences and the 2nd difference.
 {p_end}
 
+{title:Syntax}
+
 {phang}For a more descriptive discussion on the intended usage and work flow of this command please see the {browse "https://dimewiki.worldbank.org/Ieddtab":DIME Wiki}
 {p_end}
-
-{title:Syntax}
 
 {phang}{bf:ieddtab} {it:varlist} [if] [in] [weight], {bf:{ul:t}ime}({it:varname}) {bf:{ul:treat}ment}({it:varname}) [ {bf:{ul:covar}iates}({it:varlist}) {bf:{ul:vce}}({it:vce_types}) {bf:{ul:star}levels}({it:numlist}) {bf:stardrop} {bf:{ul:err}ortype}({it:string}) {bf:{ul:rowl}abtype}({it:string}) {bf:rowlabtext}({it:label_string}) {bf:format}({it:%fmt}) {bf:replace} {bf:{ul:savet}ex}({it:filepath}) {bf:onerow} {bf:nonumbers}  {bf:nonotes} {bf:{ul:addn}otes}({it:string})  {bf:{ul:texdoc}ument} {bf:{ul:texc}aption}({it:string}) {bf:{ul:texl}abel}({it:string}) {bf:{ul:texn}otewidth}({it:numlist}) {bf:texvspace}({it:string}) ]  
 {p_end}

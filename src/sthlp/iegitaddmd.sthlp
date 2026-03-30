@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 7.3 20240404}{...}
+{* *! version 7.4 20260330}{...}
 {hline}
 {pstd}help file for {hi:iegitaddmd}{p_end}
 {hline}
@@ -9,10 +9,10 @@
 {phang}{bf:iegitaddmd} - Creates a placeholder file in subfolders of a GitHub repository folder, which allows committing folder structures with empty folders.
 {p_end}
 
+{title:Syntax}
+
 {phang}For a more descriptive discussion on the intended usage and work flow of this command please see the {browse "https://dimewiki.worldbank.org/Iegitaddmd":DIME Wiki}.
 {p_end}
-
-{title:Syntax}
 
 {phang}{bf:iegitaddmd} , {bf:folder}({it:full_file_path}) [ {bf:comparefolder}({it:full_file_path}) {bf:customfile}({it:filename}) {bf:all} {bf:skip} {bf:replace} {bf:skipfolders}({it:folder_name}) {bf:{ul:auto}matic} {bf:{ul:dry}run} ]
 {p_end}

@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 7.3 20240404}{...}
+{* *! version 7.4 20260330}{...}
 {hline}
 {pstd}help file for {hi:iegraph}{p_end}
 {hline}
@@ -9,10 +9,10 @@
 {phang}{bf:iegraph} - Generates graphs based on regressions with treatment dummies common in impact evaluations.
 {p_end}
 
+{title:Syntax}
+
 {phang}For a more descriptive discussion on the intended usage and work flow of this command please see the {browse "https://dimewiki.worldbank.org/Ietoolkit":DIME Wiki}.
 {p_end}
-
-{title:Syntax}
 
 {phang}{bf:iegraph} , {it:varlist} , [ {bf:{ul:basicti}tle}({it:string}) {bf:{ul:varl}abels} {bf:save}({it:string}) {bf:{ul:gray}scale} {bf:yzero} {bf:{ul:barl}abel} {bf:{ul:mlabc}olor}({it:colorname}) {bf:{ul:mlabp}osition}({it:clockpos}) {bf:{ul:mlabs}ize}({it:size}) {bf:barlabelformat} {bf:noconfbars} {bf:confbarsnone}({it:varlist}) {bf:confintval}({it:numlist}) {bf:norestore} {bf:{ul:baropt}ions}({it:string}) {bf:ignoredummytest} {it:twoway_scatter_options} ]
 {p_end}

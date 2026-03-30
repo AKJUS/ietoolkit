@@ -1,4 +1,4 @@
-*! version 7.3 20240404 - DIME Analytics - dimeanalytics@worldbank.org
+*! version 7.4 20260330 - DIME Analytics - dimeanalytics@worldbank.org
 
 cap program drop   ietoolkit
     program define ietoolkit
@@ -8,8 +8,8 @@ qui {
     version 12.0
 
     * Do not manually edit these locals. They are updated with ad_publish in the adodown workflow
-    local version "7.3" 
-    local versionDate "20240404" 
+    local version "7.4" 
+    local versionDate "20260330" 
     local cmd         "ietoolkit"
 
     syntax [anything]

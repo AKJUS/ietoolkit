@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 7.3 20240404}{...}
+{* *! version 7.4 20260330}{...}
 {hline}
 {pstd}help file for {hi:iedropone}{p_end}
 {hline}
@@ -9,10 +9,10 @@
 {phang}{bf:iedropone} - an extension of the command {inp:drop} with features preventing additional observations are unintentionally dropped. 
 {p_end}
 
+{title:Syntax}
+
 {phang}For a more descriptive discussion on the intended usage and work flow of this command please see the {browse "https://dimewiki.worldbank.org/Iedropone":DIME Wiki}.
 {p_end}
-
-{title:Syntax}
 
 {phang}{bf:iedropone} [{bf:if}] , [ {bf:{ul:n}umobs}({it:integer}) {bf:mvar}({it:varname}) {bf:mval}({it:list of values}) {bf:zerook} ]
 {p_end}
