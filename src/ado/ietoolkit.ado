@@ -1,7 +1,7 @@
 *! version 7.4 20260330 - DIME Analytics - dimeanalytics@worldbank.org
 
 cap program drop   ietoolkit
-    program define ietoolkit
+    program define ietoolkit, rclass
 
 qui {
 
