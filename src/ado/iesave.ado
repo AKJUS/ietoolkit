@@ -1,4 +1,4 @@
-*! version 7.3 20240404 - DIME Analytics - dimeanalytics@worldbank.org
+*! version 7.5 20260331 - DIME Analytics - dimeanalytics@worldbank.org
 
 capture program drop iesave
 		program      iesave , rclass
@@ -183,6 +183,9 @@ qui {
 		noi di ""
 		isid `idvars'
 	}
+
+	* Document ID var in data set notes
+	notes: ID = `idvars'
 
 /*******************************************************************************
 		Optimize storage on disk

@@ -15,7 +15,7 @@
     reproot, project("ietoolkit") roots("clone") prefix("ietoolkit_")
 
     * Use locals for all non-root paths
-    local testfldr "${adwn_clone}/src/tests"
+    local testfldr "${ietoolkit_clone}/src/tests"
 
     * Use the /dev-env folder as a dev environment
     cap mkdir    "`testfldr'/dev-env"

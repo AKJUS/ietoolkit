@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 7.3 20240404}{...}
+{* *! version 7.5 20260331}{...}
 {hline}
 {pstd}help file for {hi:iekdensity}{p_end}
 {hline}

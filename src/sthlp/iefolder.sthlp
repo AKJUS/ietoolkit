@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 7.3 20240404}{...}
+{* *! version 7.5 20260331}{...}
 {hline}
 {pstd}help file for {hi:iefolder}{p_end}
 {hline}
@@ -9,10 +9,10 @@
 {phang}{bf:iefolder} - sets up project folders and master do-files according to World Bank DIME{c 39}s standards.
 {p_end}
 
+{title:Syntax}
+
 {phang}For a more descriptive discussion on the intended usage and work flow of this command please see the {browse "https://dimewiki.worldbank.org/Iefolder":DIME Wiki}
 {p_end}
-
-{title:Syntax}
 
 {phang}{it:When initially setting up the {inp:DataWork} folder in a new project}: 
 {p_end}

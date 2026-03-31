@@ -1,6 +1,6 @@
-*! version 7.3 20240404 - DIME Analytics - dimeanalytics@worldbank.org
+*! version 7.5 20260331 - DIME Analytics - dimeanalytics@worldbank.org
 
-	capture program drop   iebaltab,
+	capture program drop   iebaltab
 	        program define iebaltab, rclass
 
 qui {

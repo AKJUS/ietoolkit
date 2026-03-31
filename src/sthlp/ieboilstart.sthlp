@@ -1,5 +1,5 @@
 {smcl}
-{* *! version 7.3 20240404}{...}
+{* *! version 7.5 20260331}{...}
 {hline}
 {pstd}help file for {hi:ieboilstart}{p_end}
 {hline}
@@ -9,13 +9,13 @@
 {phang}{bf:ieboilstart} - applies best practices for collaboration and reproducibility within a project.
 {p_end}
 
+{title:Syntax}
+
 {phang}For a more descriptive discussion on the intended usage and workflow of this command please see the {browse "https://dimewiki.worldbank.org/wiki/Ieboilstart":DIME Wiki}.
 {p_end}
 
 {phang}{bf:DISCLAIMER} - One objective of this command is to harmonize settings across users. However, it is impossible to guarantee that different types of Stata (version number, Small/IC/SE/MP or PC/Mac/Linux) will work exactly the same in every possible context. This command does not guarantee against any version discrepancies in Stata or in user-contributed commands. This command is solely a collection of common practices to reduce the risk that the same code generates different outputs when running on different computers. See more details below.
 {p_end}
-
-{title:Syntax}
 
 {phang}{bf:ieboilstart} , {bf:{ul:v}ersionnumber}( {it:Stata_version} ) [{bf:{ul:ado}path}({it:{c 34}path/to/folder{c 34}}, {c -(}{it:strict} | {it:nostrict}{c )-}) {bf:noclear} {bf:{ul:q}uietly} {bf:veryquietly} {it:memory_options} ]
 {p_end}
