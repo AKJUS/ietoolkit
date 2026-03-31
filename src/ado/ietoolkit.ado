@@ -43,4 +43,5 @@ qui {
   	noi di _col(4) "This version of ietoolkit installed is version " _col(54)"`version'"
   	noi di _col(4) "This version of ietoolkit was released on " _col(54)"`versionDate'"
 
+}
   end
